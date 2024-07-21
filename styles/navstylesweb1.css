@@ -1,0 +1,115 @@
+/* common nav styles*/
+.navigation-wrapper{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    /* padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px; */
+
+    /* left column styles */
+}
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .contact-icon i {
+    font-size: 2em;
+    margin-right: 15px;
+}
+.navigation-wrapper > .left-column > .contact-hours{
+    color: #cbcbcb;
+}
+.navigation-wrapper > .left-column > .contact-hours > .hours {
+    font-size: 0.9em;
+    color: #858585;
+
+}
+.navigation-wrapper > .left-column > .contact-hours {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+}
+.navigation-wrapper > .left-column > .contact-hours > .contact {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* center column styles */
+.navigation-wrapper > .center-column > .link-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;  
+}
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+.link-wrapper
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+.link-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link-wrapper > .nav-link a:hover {
+    letter-spacing: 2px;
+    color: #cea135;
+}
+/* right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+.navigation-wrapper > .right-column > .address-icon {
+    font-size: 2em;
+    margin-left: 15px;
+}
+.navigation-wrapper > .right-column > .Address {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-align:  right;
+}
+.navigation-wrapper > .right-column > .Address a {
+   color: #858585;
+   font-size: 0.9em;
+   text-decoration: none;
+   transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .Address a:hover {
+    color: #cea135;
+}
+.navigation-wrapper > .right-column > .address-icon a{
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .address-icon a:hover {
+    color: #cea135
+}

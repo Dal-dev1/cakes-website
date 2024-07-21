@@ -1,0 +1,58 @@
+
+/* footer section */
+.footer-section{
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+.footer-section > .footer-logo img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(80%);
+}
+
+.footer-section > .Social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+.footer-section > .footer-contact span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+.footer-section > .footer-contact > .hours {
+    font-size: 0.8em;
+    color: #cea135;
+    text-transform: uppercase;
+}
+.footer-section > .link-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+.footer-section > .copyright {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.7em;
+    color: #858585;
+}
+.footer-section > .Social-media a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.footer-section > .Social-media a:hover {
+    color: #cea135;
+}
